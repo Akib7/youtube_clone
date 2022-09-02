@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Box } from "@mui/material";
-import { Search } from "@mui/icons-material";
 import {
   Navbar,
   Feed,
