@@ -3,10 +3,14 @@ import { CheckCircle } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 import { demoProfilePicture } from "../../utils/constants";
 
-const ChannelCard = ({ channelDetail }) => (
+const ChannelCard = ({ channelDetail, marginTop }) => (
   // {
   //   console.log(channelDetail);
   // }
+  //when calling component which has different styles, we
+  //can pass it as prop. Like we did here with 'marginTop'
+  //marginTop is only being used in the profile page and
+  //not in the feed page
   <Box
     sx={{
       boxShadow: "none",
@@ -17,6 +21,7 @@ const ChannelCard = ({ channelDetail }) => (
       width: { xs: "356px", md: "320px" },
       height: "326px",
       margin: "auto",
+      marginTop,
     }}
   >
     <Link to={`/channel/${channelDetail?.id?.channelId}`}>
@@ -46,10 +51,10 @@ const ChannelCard = ({ channelDetail }) => (
           {channelDetail?.snippet?.title}
           <CheckCircle sx={{ fontSize: 14, color: "gray", ml: "5px" }} />
         </Typography>
-        {channelDetail?.statistics?.subcriberCount && (
+        {channelDetail?.statistics?.subscriberCount && (
           <Typography>
             {parseInt(
-              channelDetail?.statistics?.subcriberCount
+              channelDetail?.statistics?.subscriberCount
             ).toLocaleString()}
             Subscribers
           </Typography>
