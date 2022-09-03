@@ -7,12 +7,15 @@ import { fetchFromAPI } from "../../utils/fetchFromApi";
 
 const Feed = () => {
   const [selectedCategory, setSelectedCategory] = useState("New");
-
+  const [videos, setVideos] = useState([]);
   //useEffect is for when the app loads for the first time
   //it's like initState()
 
   useEffect(() => {
-    fetchFromAPI(`search?part=snippet&q=${selectedCategory}`);
+    fetchFromAPI(`search?part=snippet&q=${selectedCategory}`).then((data) => {
+      // console.log(data);
+      setVideos(data.items);
+    });
   }, [selectedCategory]);
 
   return (
@@ -47,7 +50,7 @@ const Feed = () => {
           {selectedCategory} <span style={{ color: "#F31503" }}>videos</span>
         </Typography>
 
-        <Videos videos={[]} />
+        <Videos videos={videos} />
       </Box>
     </Stack>
   );
