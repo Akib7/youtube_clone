@@ -5,3 +5,4 @@ export { default as ChannelDetails } from "./channel-details/channel-details";
 export { default as SearchFeed } from "./search-feed/search-feed";
 export { default as SeacrhBar } from "./search-bar/search-bar";
 export { default as Sidebar } from "./sidebar/sidebar";
+export { default as Videos } from "./videos/videos";
