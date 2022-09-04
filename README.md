@@ -16,7 +16,8 @@ You can try this app in your browser in - https://vidmedia.netlify.app/ this lin
 ![cr](https://user-images.githubusercontent.com/75217894/188314865-72ad86df-04f7-464d-a75a-d7fa8ae5c294.PNG)
 
 
-![pew](https://user-images.githubusercontent.com/75217894/188316044-2edafc7c-6ae7-4b91-9d06-f971e92841fc.PNG)
+![pew](https://user-images.githubusercontent.com/75217894/188316558-f0fc840c-6d74-4cc1-b420-e09d6dae064a.PNG)
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
