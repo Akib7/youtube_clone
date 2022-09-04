@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This is a project created with YouTube API. It is an app where you can search for videos, or channel, and get play the videos along with getting the information of the channels and videos.
+This is a project created with YouTube API. It is an app where you can search for youtube videos or channels, and play the videos along with getting the information of the channels and videos.
 
 You can try this app in your browser in - https://vidmedia.netlify.app/ this link.
 
