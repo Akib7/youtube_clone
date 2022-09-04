@@ -13,13 +13,13 @@ You can try this app in your browser in - https://vidmedia.netlify.app/ this lin
 ![zayn2](https://user-images.githubusercontent.com/75217894/188314684-4a15e2cd-1b30-4c66-bcab-3f4f4c34dae1.PNG)
 
 
-![cr](https://user-images.githubusercontent.com/75217894/188314785-5775a375-a420-42fe-8af9-2da450800457.PNG)
-
+![cr](https://user-images.githubusercontent.com/75217894/188314865-72ad86df-04f7-464d-a75a-d7fa8ae5c294.PNG)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+
 
 In the project directory, you can run:
 
