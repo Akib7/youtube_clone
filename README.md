@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+This is a project created with YouTube API. It is an app where you can search for videos, or channel, and get play the videos along with getting the information of the channels and videos.
+
+You can try this app in your browser in - https://lovely-dolphin-1d10a2.netlify.app/ this link.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
